@@ -2,11 +2,12 @@
   "name": "y",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "require": "server.cjs",
   "type": "module",
   "scripts": {
     "start": "nodemon server.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {

@@ -10,7 +10,7 @@ export default [
     },
     {
         id: 2,
-        question : "Question1",
+        question : "Question2",
         options : [
             'Barke',
             'Diallo',
@@ -19,7 +19,7 @@ export default [
     },
     {
         id: 3,
-        question : "Question1",
+        question : "Question3",
         options : [
             'Barke',
             'Diallo',
@@ -28,7 +28,7 @@ export default [
     },
     {
         id: 4,
-        question : "Question1",
+        question : "Question4",
         options : [
             'Barke',
             'Diallo',
@@ -37,7 +37,7 @@ export default [
     },
     {
         id: 5,
-        question : "Question1",
+        question : "Question5",
         options : [
             'Barke',
             'Diallo',

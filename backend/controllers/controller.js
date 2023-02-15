@@ -1,11 +1,11 @@
-import Questions from "../models/questionSchema.js";
-import Results from "../models/resultSchema.js";
+import Questions from "../models/questionShema.js";
+import Results from "../models/resultShema.js";
 import questions, { answers } from '../database/data.js'
 
 /** get all questions */
 export async function getQuestions(req, res){
     try {
-        const q = await Questions.find();
+        const q = await Question.find();
         res.json(q)
     } catch (error) {
         res.json({ error })
